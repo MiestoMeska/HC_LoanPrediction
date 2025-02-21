@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/TuringCollegeSubmissions/vruzga-ML.4.1/blob/master/assets/Home-Credit-logo.png" alt="Home Credit Logo" width="50%">
+    <img src="https://github.com/MiestoMeska/HC_LoanPrediction/blob/main/assets/Home-Credit-logo.png" alt="Home Credit Logo" width="50%">
 </p>
 
 # Home Credit Group Loan Risk Prediction
@@ -11,39 +11,39 @@ Welcome to the project of Home Credit data analysis and machine learning techniq
 
 ## Project Information
 
-[Dataset Structure Notebook](https://github.com/TuringCollegeSubmissions/vruzga-ML.4.1/blob/master/notebooks/dataset_composition.ipynb)
+[Dataset Structure Notebook](https://github.com/MiestoMeska/HC_LoanPrediction/blob/main/notebooks/dataset_composition.ipynb)
 
 This notebook is about exploring the initial structure and composition of the Home Credit dataset. It details the different data files, their sizes, types, and relationships. It aims to provide a clear understanding of the dataset's framework necessary for subsequent data manipulation and analysis.
 
-[EDA Notebook](https://github.com/TuringCollegeSubmissions/vruzga-ML.4.1/blob/master/notebooks/train_dataset_EDA.ipynb)
+[EDA Notebook](https://github.com/MiestoMeska/HC_LoanPrediction/blob/main/notebooks/train_dataset_EDA.ipynb)
 
 Exploratory Data Analysis (EDA) on the Home Credit training dataset. It includes visualizations of key variables, investigations into missing values, and analyses of relationships between features and the target variable. The objective is to uncover insights and patterns that inform future steps in feature engineering and modeling.
 
 
-[Feature Engineering Notebook](https://github.com/TuringCollegeSubmissions/vruzga-ML.4.1/blob/master/notebooks/feature_engineering.ipynb)
+[Feature Engineering Notebook](https://github.com/MiestoMeska/HC_LoanPrediction/blob/main/notebooks/feature_engineering.ipynb)
 
 This notebook is about enhancing the dataset with new features derived from existing data.
 
 
-[Feature Selection Notebook](https://github.com/TuringCollegeSubmissions/vruzga-ML.4.1/blob/master/notebooks/feature_selection.ipynb)
+[Feature Selection Notebook](https://github.com/MiestoMeska/HC_LoanPrediction/blob/main/notebooks/feature_selection.ipynb)
 
 The Feature Selection Notebook is about iteratively analyzing feature importance and reducing the number of features used for model training. This involves identifying less significant features and removing them to improve the efficiency and performance of the predictive models. The process aims to retain only the most impactful attributes that contribute to the accuracy of creditworthiness predictions.
 
 
-[Model Training Notebook](https://github.com/TuringCollegeSubmissions/vruzga-ML.4.1/blob/master/notebooks/model_training_final.ipynb)
+[Model Training Notebook](https://github.com/MiestoMeska/HC_LoanPrediction/blob/main/notebooks/model_training_final.ipynb)
 
 
 This notebook is about applying a machine learning technique to develop and evaluate a predictive model. It covers hyperparameter tuning and model validation strategies, focusing on training the best-performing model. The primary goal is to prepare and optimize the model for generating predictions, which will be submitted to Kaggle for evaluation.
 
 ## Model Performance
 
-<img src="https://github.com/TuringCollegeSubmissions/vruzga-ML.4.1/blob/master/assets/ROC.PNG" alt="ROC model performance" width="65%">
+<img src="https://github.com/MiestoMeska/HC_LoanPrediction/blob/main/assets/ROC.PNG" alt="ROC model performance" width="65%">
 
 The validation results indicate that the predictive model has a moderate level of accuracy and a decent ROC AUC score, suggesting a satisfactory ability to distinguish between classes. However, the precision is low, indicating a higher rate of false positives. The recall rate is relatively high, suggesting the model is quite good at identifying the positive class but at the cost of incorrectly labeling many negatives as positives. Overall, while the model shows promise in identifying positive cases, it requires refinement to reduce false positives and improve overall precision.
 
 Kaggle submission score:
 
-![Kaggle Score](https://github.com/TuringCollegeSubmissions/vruzga-ML.4.1/blob/master/assets/submission_score.PNG "Kaggle score")
+![Kaggle Score](https://github.com/MiestoMeska/HC_LoanPrediction/blob/main/assets/submission_score.PNG "Kaggle score")
 
 ## Conclusions
 
